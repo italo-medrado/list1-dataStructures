@@ -17,8 +17,8 @@ public class q7 {
         System.out.println("Type the total amount of the participants: ");
         double participants = scanner.nextDouble();
 
-        double totalrecipe = (recipe / (participants-1);
+        double totalrecipe = (recipe / (participants-1));
 
-        System.out.println("The total of the recipe is: ");
+        System.out.printf("The total of the recipe for each one is: %.2f", totalrecipe);
     }
 }
